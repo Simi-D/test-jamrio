@@ -1,6 +1,10 @@
-import Post from "../../components/post/Post";
+import SinglePost from "../../components/singlePost/SinglePost";
 import "./single.css";
 
 export default function Single() {
-  return <div className="single">{Post}</div>;
+  return (
+    <div className="single">
+      <SinglePost />
+    </div>
+  );
 }
